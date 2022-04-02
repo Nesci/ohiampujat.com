@@ -8,10 +8,7 @@
     <title>Aktiivisesti ylläpidettävä ohiampujien lista</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <script>
-    var curdate = new Date();
-    var kamat = document.getElementById("juttu").innerHTML="Viimeksi päivitetty " + curdate.toString();
-  </script>
+  
   <body>
 	<ul>
       <li>Jörgi</li>
@@ -20,5 +17,9 @@
       <li>Gage</li>
 	</ul>
 	<footer id="juttu"></footer>
+  <script>
+    var curdate = new Date();
+    var kamat = document.getElementById("juttu").innerHTML="Viimeksi päivitetty " + curdate.toString();
+  </script>
   </body>
 </html>
